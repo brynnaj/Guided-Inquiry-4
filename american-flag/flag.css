@@ -1,0 +1,48 @@
+.USAflag {
+    border: 1px solid blue;
+    height: 390px;
+    width: 800px;
+}
+
+
+.red {
+    background-color: red;
+    height: 30px;
+    width: 100%;
+}
+
+.white {
+    background-color: white;
+    height: 30px;
+    width: 100%;
+}
+
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.wstars {
+    float:left;
+    position: static;
+}
+img {
+    height: 195px;
+}
+
+@media (max-width: 768px) {
+    .USAflag {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .red, .white {
+        height: 20px; 
+    }
+
+    .wstars img {
+        height: 95px; 
+    }
+}
